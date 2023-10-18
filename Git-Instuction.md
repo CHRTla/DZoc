@@ -21,3 +21,18 @@ A branch is an isolated development environment within a single repository.
 - Use ___git branch -d [branch-name]___ to delete a branch
 
 # Working with repositories
+To be able to collaborate on any Git project, you need to know how to manage your remote repositories. Remote repositories are versions of your project that are hosted on the Internet or network somewhere. You can have several of them, each of which generally is either read-only or read/write for you.
+
+- Use ___git clone [web-address]___ to copy a remote repository to your local workspace.
+    - You may need to log into your account, if you hven't sone so prior to the command.
+- Use ___git push___ (or ___git push [remote] [branch]___) to push all your local commits onto a remote repositroty
+- Use ___git pull___ to push the commits from a remote repository to your local workspace.
+
+If you work on a collaborative project, always work _in a separate branch_.
+
+1. Use the **fork** option on GitHub to create a copy of a repository on your account.
+1. Clone the repository to your local workspace.
+2. Use a **separate branch** to make any changes to the file.
+3. Commit the changes
+4. Push the changes to **your** GitHub
+6. Create a **pull rquest** to suggest the changes to the file.
